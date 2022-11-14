@@ -2,11 +2,13 @@
     /* Primary */
     --dark-cyan: hsl(158, 36%, 37%);
     --cream: hsl(30, 38%, 92%);
+    
 
     /* Neutral */
     --very-dark-blue: hsl(212, 21%, 14%);
     --dark-grayish-blue: hsl(228, 12%, 48%);
     --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
 
     /* Layout */
     --mobile: 375px;
@@ -24,12 +26,45 @@ html{
 body{
     padding: 0;
     margin: 0;
+    background-color: var(--cream);
+}
+
+body p{
+    font-size: 14px;
+}
+
+
+.card-wrapper{
+    background: var(--white);
+    border-radius: 10px;
+    display:grid;
+    grid-template-rows: repeat(2, 1fr);
+    width: 344px;
+    height: 600px;
+    margin: 30px 15px;
+}
+
+
+.img-container{
+    background: url(images/image-product-mobile.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+    height: 239px;    
+}
+
+.section-container{
+    margin: 20px;
 }
 
 
 
 
 
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
   
