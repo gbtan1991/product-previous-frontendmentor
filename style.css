@@ -45,6 +45,7 @@ body p{
     font-weight: 500;
     margin: 0px;
     text-decoration: none;
+    
 }
 
 .card-wrapper{
@@ -56,6 +57,7 @@ body p{
     width: 344px;
     height: 600px;
     margin: 30px 15px 10px 15px;
+    margin: auto;
 
 }
 
